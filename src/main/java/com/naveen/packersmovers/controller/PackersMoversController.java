@@ -32,7 +32,7 @@ public class PackersMoversController {
         @GetMapping("/ping")
         public String ping() {
 
-        	return "My backend server is up and running";
+        	return "Hi this is lahari";
         }
 
 
