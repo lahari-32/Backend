@@ -39,6 +39,12 @@ public class PackersMoversController {
         public String name() {
       
                     return "Hi this is lahari";
-        }              
+        }  
+        
+        @GetMapping("/chintu")
+        public String chintu() {
+      
+                    return "Hi this is chintu";
     }
 
+}
